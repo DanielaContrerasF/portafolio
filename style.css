@@ -1,3 +1,27 @@
 body {
-    background-color: aqua;
+    background-color: rgb(223, 196, 226);
+}
+
+#imagensma {
+    container {
+        display: flex;
+        justify-content: center;
+      }
+      
+      img {
+        width: 50%;
+        max-width: 200px;
+}  
+}
+
+#butonwhitelotus {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: rgb(213, 87, 238);
+}
+
+h2 {
+    color: rgb(213, 87, 238);
 }
