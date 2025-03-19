@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(223, 196, 226);
+    background-color: rgb(230, 221, 231);
+    
 }
 
 #imagensma {
@@ -9,19 +10,93 @@ body {
       }
       
       img {
-        width: 50%;
+        width: 40%;
         max-width: 200px;
 }  
 }
 
-#butonwhitelotus {
-    background-color: blueviolet;
+button.journaling {
+    background-color: #83AF9B; /* Color verde agua */
+    color: white; /* Letras blancas */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Elimina el borde */
+    max-width: 300px; /* Tamaño máximo */
+    text-align: center; /* Centra el texto */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho */
+    width: calc(100% - 20px); /* Deja 10px de margen a cada lado */
+    margin: 10px auto; /* Ajusta el margen según sea necesario */
 }
 
 h1 {
     color: rgb(213, 87, 238);
+    justify-content: center;
 }
 
 h2 {
     color: rgb(213, 87, 238);
+}
+
+p {
+    color: rgb(104, 0, 117);
+    font-size: 20px;
+};
+
+.botonli {
+    background-color: #0077b5; /* Color de fondo de LinkedIn */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #botonLinkedin:hover {
+    background-color: #005c8c; /* Color cuando el cursor está sobre el botón */
+  }
+
+  .pTipoLetra {
+    font-family: Arial, sans-serif;
+    color: #494949;
+    margin-bottom: 10px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    gap: 2rem; /* Espacio entre tarjetas */
+    justify-content: center; /* Centra las tarjetas */
+    flex-wrap: wrap; /* Ajusta a múltiples filas si hay espacio */
+    padding: 2rem 0; /* Espacio vertical */
+}
+
+/* Opcional: Para mejor responsive */
+@media (max-width: 768px) {
+    .contenedor-tarjetas {
+        flex-direction: column;
+    }
+}
+
+#tarjetajournaling {
+    background-color: #e4c9d8;
+}
+
+#tarjetawl {
+    background-color: #e4c9d8;
+}
+
+.contenedor-educacion {
+    display: flex;
+    gap: 2rem; /* Espacio entre tarjetas */
+    justify-content: center; /* Centra las tarjetas */
+    flex-wrap: wrap; /* Ajusta a múltiples filas si hay espacio */
+    padding: 2rem 0; /* Espacio vertical */
+    background-color: #e4c9d8;
+}
+
+#tarjetagen {
+    background-color: #f1cbece3;
+}
+
+#tarjetaeco {
+    background-color: #f1cbece3;
 }
